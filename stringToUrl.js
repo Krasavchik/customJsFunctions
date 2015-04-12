@@ -1,12 +1,13 @@
 function stringToUrl(mystring){
     var specialChars = [
         [" |'","-"],
-        ["à|á|ä","a"],
+        ["à|á|ä|â","a"],
         ["é|è|ê|ë","e"],
-        ["í|ì|ï","i"],
-        ["ó|ô|ö","o"],
+        ["í|ì|ï|î","i"],
+        ["ó|ô|ö|ò|õ","o"],
+        ["ñ","n"],
         ["ú|ù|ü","u"],
-        ["ñ","n"]
+        ["ÿ","y"]
     ];
     mystring = mystring.toLowerCase();
 
