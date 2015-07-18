@@ -1,6 +1,6 @@
 function stringToUrl(mystring){
     var specialChars = [
-        ["[ '().,–]","-"],
+        ["[ '()\/.]","-"],
         ["[àáäâã]","a"],
         ["[éèêë]","e"],
         ["[íìïî]","i"],
